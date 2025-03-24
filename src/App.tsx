@@ -4,6 +4,8 @@ import { ConsumptionForm } from './components/ConsumptionForm';
 import { Results } from './components/Results';
 import { ConsumptionData, SolarCalculation } from './types';
 import { Sun } from 'lucide-react';
+import logo from './assets/logo.svg';
+
 
 function App() {
   const [step, setStep] = useState(1);
@@ -52,7 +54,7 @@ function App() {
       <header className="bg-blue-600 text-white p-4">
         <div className="container mx-auto flex items-center gap-3">
           <Sun className="w-8 h-8" />
-          <h1 className="text-2xl font-bold">Calculadora Solar</h1>
+          <img src={logo} alt="Logo" className="logo" />
         </div>
       </header>
 
