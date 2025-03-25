@@ -12,7 +12,7 @@ export const InstallationType: React.FC<InstallationTypeProps> = ({ onSelect }) 
         onClick={() => onSelect('grid')}
         className="flex flex-col items-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow"
       >
-        <Power className="w-16 h-16 text-blue-600 mb-4" />
+        <Power className="w-16 h-16 text-black mb-4" />
         <h3 className="text-xl font-bold text-gray-800">Instalación Solar Interconectada</h3>
         <p className="mt-2 text-gray-600 text-center">
           Conectada a la red eléctrica para mayor eficiencia

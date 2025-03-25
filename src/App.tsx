@@ -5,6 +5,7 @@ import { Results } from './components/Results';
 import { ConsumptionData, SolarCalculation } from './types';
 import { Sun } from 'lucide-react';
 import logo from './assets/logo.svg';
+import logo1 from './assets/logo1.png';
 
 
 function App() {
@@ -51,10 +52,10 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <header className="bg-blue-600 text-white p-4">
+      <header className="bg-black text-white p-4">
         <div className="container mx-auto flex items-center gap-3">
           <Sun className="w-8 h-8" />
-          <img src={logo} alt="Logo" className="logo" />
+          <img src={logo1} alt="Logo" className="logo" />
         </div>
       </header>
 
