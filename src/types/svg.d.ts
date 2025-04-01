@@ -5,3 +5,13 @@ declare module '*.svg' {
     const src: string;
     export default src;
 }
+
+declare module './home.component' {
+    const Home: React.FC;
+    export { Home };
+}
+
+declare module './navigation.component' {
+    const Navigation: React.FC;
+    export { Navigation };
+  }

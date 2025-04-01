@@ -1,0 +1,21 @@
+.authentication-container {
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+// Cuando la pantalla sea menor o igual a 768px
+@media (max-width: 768px) {
+  .authentication-container {
+    flex-direction: column;
+    width: 90%; // o 100% según prefieras
+    align-items: center;
+  }
+  
+  .sign-in-container,
+  .sign-up-container {
+    width: 100%; // Se ajustan para ocupar todo el ancho disponible
+    margin-bottom: 20px; // Opcional para separar los componentes
+  }
+}
