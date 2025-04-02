@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { InstallationType } from "../../components/directory/InstallationType.component";
 import { ConsumptionForm } from "../../components/ConsumptionForm";
 import { Results } from "../../components/Results";
+import { Navigation } from "../navigation/navigation.component";
 
 export const Home = () => {
   const [step, setStep] = useState(1);
